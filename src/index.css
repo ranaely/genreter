@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.body{
+ 
+  max-width: fit-content;
+  background-color: rgb(97, 95, 95);
+  color: orange;
+  font-size: 20px;
+  border-radius: 30px;
+  align-content: center;
+  box-shadow: inset;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  box-shadow: black;
+  margin-left: 350px;
+  margin-top: 20pt;
+  padding-bottom: 20pt;
+}
+.h1{
+  font-size: xx-large;
+  color: white;
+}
+.div1{
+
+  overflow: hidden;
+
+  border-radius: 120px;
+
+
+}
+.input1{
+
+  width: 400px;
+ text-align: center;
+ padding: 5px;
+
+
+}
+.btn-generate{
+ outline: hidden;
+ background-color: rgb(66, 66, 128);
+flex-shrink: 0;
+padding: 5px;
+color: wheat;
+
+}
+.main-div{
+
+  display: flex;
+  column-gap: 10px;
+margin-top: 10pt;
+
+
+}
+.intro{
+
+ 
+  color: rgb(13, 63, 63);
+  /* border-style: dotted; */
+
+padding-top: 70pt;
+
+font-weight: 90;
+font-size: 5em;
+
+overflow: hidden;
+
+line-height: 1em;
+transform-origin: 0 0;
+
+}
