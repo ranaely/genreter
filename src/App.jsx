@@ -87,6 +87,13 @@ window.navigator.clipboard.writeText(password)
 
 
 </div>
+    <div>
+<input type="text" className="input1" placeholder="Password" value={password} ref={passwordRef} readOnly  />
+
+<button className="btn-generate" onClick={clipboard1}>Copy</button>
+
+<button className="btn-generate"  onClick={passwordGenertor}>Genreter</button>
+</div>
 <Tag/>
   </div>
   
