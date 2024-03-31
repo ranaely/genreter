@@ -93,7 +93,26 @@ window.navigator.clipboard.writeText(password)
 <button className="btn-generate" onClick={clipboard1}>Copy</button>
 
 <button className="btn-generate"  onClick={passwordGenertor}>Genreter</button>
+      <div >
+<label htmlFor="rango">Select Your Lenght :{length}</label>
+<input type="range" className="input2"  id="range" min={3} max={8} value={length} onChange={(e)=>setLength(e.target.value)}/>
+
+
 </div>
+<div >
+
+<input type="checkbox" className="input3" id="Number"  defaultChecked={number} onChange={()=>{setNumber(prev=>!prev)}}/>
+<label htmlFor="Number" >Number</label>
+
+</div>
+<div>
+
+<input type="checkbox" className="input4" id="Character" defaultChecked={charcter} onChange={()=>{setCharcter(prev=>!prev)}}/>
+<label htmlFor="Character" >Charcter</label>
+
+</div>
+</div>
+    
 <Tag/>
   </div>
   
